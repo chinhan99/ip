@@ -3,9 +3,10 @@ package duke.taskings;
 public class Event extends Task {
 
     protected String at;
+    protected boolean isDone;
 
-    public Event(String description, String at) {
-        super(description);
+    public Event(String taskType, String description, boolean isDone, String at) {
+        super(taskType, description, isDone);
         this.at = at;
     }
 
