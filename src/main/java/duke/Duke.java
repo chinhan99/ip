@@ -5,9 +5,8 @@ import duke.taskings.Deadline;
 import duke.taskings.Event;
 import duke.taskings.Task;
 import duke.taskings.Todo;
-import duke.FileOperation;
+import duke.file.FileOperation;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
 
